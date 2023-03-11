@@ -4,8 +4,7 @@
   "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "@sendgrid/mail": "^7.7.0",
@@ -25,7 +24,5 @@
     "slugify": "^1.6.5",
     "xss-clean": "^0.1.1"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.20"
-  }
+  "devDependencies": {}
 }
